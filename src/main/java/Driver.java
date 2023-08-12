@@ -16,7 +16,7 @@ public class Driver {
 
 
         System.out.println("Topic name is: " + topicName);
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         Properties props = new Properties();
         props.put("bootstrap.servers", "localhost:9092");
         props.put("acks", "all");
